@@ -1,0 +1,43 @@
+#btnOpen {
+    -fx-background-color: #FFFACD;
+    -fx-background-radius: 20;
+}
+
+#vbox {
+    -fx-background-color: #BDB76B;
+}
+
+#editbtn {
+    -fx-background-radius: 20;
+    -fx-background-color: #FFFACD;
+}
+
+#btnDelete {
+    -fx-background-radius: 20;
+    -fx-background-color: #FFFACD;
+}
+
+#textField {
+   -fx-background-radius: 10;
+}
+
+#btnSearch {
+   -fx-background-color: #FFFACD;
+   -fx-background-radius: 10;
+}
+
+#tableview {
+   -fx-background-color: #EEE8AA;
+   -fx-border-color: #B8860B;
+   -fx-border-width: 3;
+}
+
+#otherLabs {
+   -fx-background-color: #FFFACD;
+   -fx-background-radius: 20;
+}
+
+#exitbtn {
+   -fx-background-color: #FFFACD;
+   -fx-background-radius: 20;
+}
