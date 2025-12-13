@@ -1,0 +1,63 @@
+.root {
+    -fx-font-family: "Segoe UI", Arial;
+    -fx-background-color: #f4f6f9;
+}
+
+.vbox {
+    -fx-background-color: white;
+    -fx-padding: 15;
+    -fx-spacing: 12;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #dcdcdc;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.08), 10, 0, 0, 3);
+}
+
+.label {
+    -fx-text-fill: #333;
+}
+
+.label:first-child {
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-wrap-text: true;
+}
+
+.button {
+    -fx-background-color: #4a6cf7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 8 14 8 14;
+}
+
+.button:hover {
+    -fx-background-color: #3957d6;
+    -fx-cursor: hand;
+}
+
+.check-box,
+.radio-button {
+    -fx-text-fill: #222;
+}
+
+.check-box:hover,
+.radio-button:hover {
+    -fx-text-fill: #4a6cf7;
+}
+
+.choice-box,
+.combo-box {
+    -fx-background-radius: 6;
+    -fx-border-radius: 6;
+}
+
+#checkBoxResultLabel,
+#choiceResultLabel,
+#comboBoxResultLabel,
+#radioResultLabel {
+    -fx-font-weight: bold;
+    -fx-padding: 5 0 0 0;
+}
